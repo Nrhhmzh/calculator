@@ -13,4 +13,4 @@ A stylish calculator built with **React** and **Tailwind CSS**, featuring a floa
 
 ## 📸 Screenshots
 
-![Calculator Preview](/preview.png)
+![Calculator Preview](./assets/preview.png)
