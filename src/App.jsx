@@ -4,7 +4,7 @@ import Calculator from './components/Calculator'
 
 function App() {
   return (
-    <div className="relative min-h-screen flex flex-col items-center justify-center gap-4 overflow-hidden bg-rose-50">
+    <div className="relative min-h-screen px-4 py-8 flex flex-col items-center justify-center gap-4 overflow-hidden bg-rose-50">
 
       {/* Blobs Background */}
       <div className="absolute top-[-10%] left-[-10%] w-[400px] h-[400px] bg-pink-300 opacity-30 rounded-full mix-blend-multiply filter blur-xs animate-blob-1"></div>
