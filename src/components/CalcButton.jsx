@@ -12,7 +12,7 @@ function CalcButton({ label, onClick }) {
       className={`!text-lg !p-4 !rounded-lg !transition-colors duration-200
         ${isOperator 
           ? '!bg-rose-500 hover:!bg-rose-600 !text-white' 
-          : '!text-rose-500 hover:!bg-rose-50 !border-gray-300'}
+          : '!text-rose-500 hover:!bg-rose-50 !border-gray-400'}
       `}
       fullWidth
     >

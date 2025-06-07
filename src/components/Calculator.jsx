@@ -60,7 +60,7 @@ function Calculator() {
     return(
         <div className="flex gap-4">
             {/* Calcualtor Panel */}
-            <div className="w-80 bg-white rounded-xl shadow-xl p-4">
+            <div className="w-80 backdrop-blur-lg shadow-lg rounded-xl p-4">
                 {/*Output  */}
                 <div className='text-right text-3xl p-4 h-20 bg-rose-100 rounded mb-4 overflow-x-auto'>
                     {expression || result}
@@ -76,7 +76,7 @@ function Calculator() {
 
 
             {/* History Panel */}
-            <div className="w-64 bg-rose-100 rounded-xl shadow-xl p-4">
+            <div className="w-64 backdrop-blur-lg shadow-lg rounded-xl p-4 mt-4">
                 <div className='flex justify-between items-center mb-2'>
                     <h2 className="text-lg font-bold">History</h2>
                     <button
