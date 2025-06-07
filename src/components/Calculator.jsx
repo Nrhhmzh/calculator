@@ -62,7 +62,7 @@ function Calculator() {
             {/* Calcualtor Panel */}
             <div className="w-80 bg-white rounded-xl shadow-xl p-4">
                 {/*Output  */}
-                <div className='text-right text-3xl p-4 h-20 bg-gray-100 dark:bg-gray-700 rounded mb-4 overflow-x-auto'>
+                <div className='text-right text-3xl p-4 h-20 bg-rose-100 rounded mb-4 overflow-x-auto'>
                     {expression || result}
                 </div>
 
@@ -76,7 +76,7 @@ function Calculator() {
 
 
             {/* History Panel */}
-            <div className="w-64 bg-gray-100 rounded-xl shadow-xl p-4">
+            <div className="w-64 bg-rose-100 rounded-xl shadow-xl p-4">
                 <div className='flex justify-between items-center mb-2'>
                     <h2 className="text-lg font-bold">History</h2>
                     <button
@@ -96,8 +96,8 @@ function Calculator() {
                                 exit={{ opacity: 0, x: -20 }}
                                 className='bg-white p-2 rounded shadow-sm text-sm'
                             >
-                                <div className="text-gray-500">{item.expression}</div>
-                                <div className="text-black font-semibold">{item.result}</div>
+                                <div className="text-rose-800">{item.expression}</div>
+                                <div className="text-rose font-semibold">{item.result}</div>
                             </motion.div>
                         ))}
                     </AnimatePresence>

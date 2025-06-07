@@ -9,7 +9,11 @@ function CalcButton({ label, onClick }) {
     <Button
       variant={isOperator ? 'contained' : 'outlined'}
       onClick={() => onClick?.(label)}
-      className='!text-lg !p-4 !rounded-lg !border-gray-300 dark:!border-gray-600 dark:!text-white'
+      className={`!text-lg !p-4 !rounded-lg !transition-colors duration-200
+        ${isOperator 
+          ? '!bg-rose-500 hover:!bg-rose-600 !text-white' 
+          : '!text-rose-500 hover:!bg-rose-50 !border-gray-300'}
+      `}
       fullWidth
     >
       {label}
